@@ -1,6 +1,6 @@
-module Omniauth
+module OmniAuth
   module Strategies
-    module Codepicnic
+    module CodePicnic
       VERSION = "0.0.1"
     end
   end

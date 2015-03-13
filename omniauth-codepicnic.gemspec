@@ -5,7 +5,7 @@ require 'omniauth/strategies/version'
 
 Gem::Specification.new do |spec|
   spec.name          = "omniauth-codepicnic"
-  spec.version       = Omniauth::Codepicnic::VERSION
+  spec.version       = OmniAuth::Strategies::CodePicnic::VERSION
   spec.authors       = ["Alvaro Pereyra"]
   spec.email         = ["alvaro@xendacentral.com"]
   spec.summary       = "Implements CodePicnic Oauth2 strategy for Omniauth"
