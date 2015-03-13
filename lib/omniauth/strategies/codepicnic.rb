@@ -3,7 +3,7 @@ require 'omniauth-oauth2'
 module OmniAuth
   module Strategies
     class CodePicnic < OmniAuth::Strategies::OAuth2
-      # change the class name and the :name option to match your application name
+      
       option :name, :codepicnic
 
       option :client_options, {
@@ -26,3 +26,5 @@ module OmniAuth
     end
   end
 end
+
+OmniAuth.config.add_camelization('codepicnic', 'CodePicnic')
